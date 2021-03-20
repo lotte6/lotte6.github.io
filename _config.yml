@@ -1,0 +1,44 @@
+permalink: /:year/:month/:day/:title.html
+paginate: 10
+kmarkdown: redcarpet
+plugins: [jekyll-paginate]
+# 作者信息
+author: 
+  name: Snow
+  email: lt12306@gmail.com
+  link: https://bravesnow.top
+
+
+# 站点信息
+title: Snow's Blog
+description: My personal blog
+url: https://bravesnow.top
+rss_url: /pages/atom.xml
+
+# gavatar头像及Favicon
+gavatar: /public/img/avatar.jpg
+favicon: /favicon.ico
+
+# google analytics 设置
+ga:
+  id: UA-54262064-1 
+  url: painterlin.com
+
+# disqus 设置
+disqus:
+  shortname: painterlin
+
+# 主题设置，自动激活某个标签
+active: Linux
+
+# 首页除了最新文章外显示分类
+cates: 
+  - Optimization
+  - LaTeX
+
+# 中文本地化
+locals:
+  tags: 标签
+  about: About
+  newest: 最新文章
+  archive: 归档

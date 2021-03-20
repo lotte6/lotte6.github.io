@@ -1,0 +1,174 @@
+/* 页面配置 */
+.container {
+  width: 100%;
+  height: 100%;
+}
+body, html {
+  margin: 0px;
+  height: 100%;
+  overflow: hidden; 
+  background-color: #303030;
+}
+img {
+  clear: both;
+  display: block;
+  max-width: 750px;
+  margin: 20px auto;
+  border: 10px solid white;
+  border-radius: 10px;
+  /* max-width: 100%; */
+
+}
+:root {
+  --blue: #375a7f;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #E74C3C;
+  --orange: #fd7e14;
+  --yellow: #F39C12;
+  --green: #00bc8c;
+  --teal: #20c997;
+  --cyan: #3498DB;
+  --white: #fff;
+  --gray: #999;
+  --gray-dark: #303030;
+  --primary: #375a7f;
+  --secondary: #444;
+  --success: #00bc8c;
+  --info: #3498DB;
+  --warning: #F39C12;
+  --danger: #E74C3C;
+  --light: #303030;
+  --dark: #adb5bd;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.row {
+  height: 100%;
+}
+/* 导航栏 + 目录栏 */
+.aside {
+  height: 100%;
+}
+/* 左侧导航栏 */
+.aside1 {
+  overflow-y: auto;
+  width: 100px;
+  background-color: #222;
+  /*background-image: url(/public/img/bg_grid.jpg);*/
+  height: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  /*box-shadow: inset -15px 0 20px -15px #77AEF4;*/
+}
+.aside1 > .nav > li {
+  border:1px solid #444;
+  border-radius: 5px;
+  /* text-align: left; */
+
+}
+
+.aside1 > .nav > li > a {
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 0px;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 10px;
+
+}
+
+.aside1> .nav > li > a:hover {
+  color:#fff;
+  background-color: rgba(192, 192, 192, 0.63);
+}
+
+.aside1 > .nav-pills>li.active>a ,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus {
+  color: #fff;
+  /*background-image: url(/public/img/body_bg.jpg);*/
+  /* background-color: #fff; */
+  background-color: rgba(192, 192, 192, 0.63);
+}
+
+.avatar {
+  width: 56px;
+  /*height: 90px;*/
+  border: 0px solid #fff;
+}
+.aside1_bottom {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.aside1_bottom > .table {
+  margin-bottom: 0px;
+}
+/* 中部目录栏 */
+.aside2 {
+  background-color: #222;
+  height: 100%;
+  width: 200px;
+  overflow-y: auto;
+  /* border-right: 2px solid #303030; */
+  /* overflow-y: auto; */
+  /* margin-top: 40px; */
+}
+
+/* 右侧内容栏 */
+.aside3 {
+  height: 100%;
+  overflow-y: auto;
+  background-color: #303030;
+  overflow-x: hidden;
+
+  /*background-image: url(/public/img/bg_lines1.jpg);*/
+}
+.aside3-title {
+  background-color: #303030;
+  /* border-bottom: 1px solid #f5f5f5; */
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+.aside3-content {
+/*  padding-left: 40px;
+  padding-right: 40px;
+*/  
+  padding: 0 5% 0 5%;
+  color: #656565;
+  line-height: 1.42857143;
+}
+#content {
+  font-size: 18px;
+}
+p, h1, h2, h3, h4, h5, text, li, ol{
+  
+  color: #fff;
+}
+#content h2, h3 {
+  line-height: 2;
+}
+blockquote p {
+  font-size: 20px;
+}
+/* 其他配置 */
+.center {
+  text-align: center;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  color: #fff;
+  background-color: rgba(192, 192, 192, 0.63);
+}
+/* 显示评论按钮 */
+.show-commend {
+  width: 100%;
+  margin-bottom: 40px;
+}
