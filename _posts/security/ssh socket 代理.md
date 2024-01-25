@@ -1,0 +1,1 @@
+ssh -p9999 -qTfnN -D 1080 ec2-user@18.163.113.2  -i '~/work/aws.pem'
